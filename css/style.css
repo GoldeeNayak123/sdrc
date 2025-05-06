@@ -10311,8 +10311,24 @@ ul li strong {
         font-weight: bold;
         color: #555;
       }
+      
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      max-height: 285px; /* Optional: Set a maximum height if needed */
+  }
+
+  .responsive-image-1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 177px; /* Optional: Set a maximum height if needed */
+}
     }
 
     .txt{
       color: rgba(255, 255, 255, 0.5) !important;
     }
+
+  
